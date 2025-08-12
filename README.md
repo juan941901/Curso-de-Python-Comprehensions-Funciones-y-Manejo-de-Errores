@@ -65,3 +65,8 @@ Esto nos permite a generar listas , con pocas instrucciones
 
 ![List Comprehension](/pantallazos/list_comprehension.png)
 
+Podemos usar listas, tuplas o cojuntos para recorrer con list comprehension.
+
+Podemos usar condicionales para validar el elemento que vamos a agregar a nuestra lista.
+
+![List Comprehension condicional](/pantallazos/list_comprehension_condicional.png)
