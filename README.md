@@ -79,3 +79,6 @@ Vamos a crear información para un diccionario de manera dinamica
 
 Para unir la información de dos listas distintas vamos a usar `zip`, este une los valores en una tupla
 
+siempre en la iteración de los elementos para crear el diccionario, tenemos en cuenta que las variables que usamos para manipulas la información resultante la vamos a usar como clave:valor
+
+`{name: age for (name, age) in zip(names, ages)}`
