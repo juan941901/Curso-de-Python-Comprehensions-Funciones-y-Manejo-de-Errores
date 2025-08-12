@@ -71,3 +71,11 @@ Podemos usar condicionales para validar el elemento que vamos a agregar a nuestr
 
 ![List Comprehension condicional](/pantallazos/list_comprehension_condicional.png)
 
+## Clase Número 6
+
+### Dictionary Comprehension
+
+Vamos a crear información para un diccionario de manera dinamica
+
+Para unir la información de dos listas distintas vamos a usar `zip`, este une los valores en una tupla
+
