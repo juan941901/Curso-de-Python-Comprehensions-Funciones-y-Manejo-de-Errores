@@ -70,3 +70,4 @@ Podemos usar listas, tuplas o cojuntos para recorrer con list comprehension.
 Podemos usar condicionales para validar el elemento que vamos a agregar a nuestra lista.
 
 ![List Comprehension condicional](/pantallazos/list_comprehension_condicional.png)
+
