@@ -63,5 +63,5 @@ Para sacar los elementos que coinciden entre conjuntos y eliminar los elementos 
 
 Esto nos permite a generar listas , con pocas instrucciones
 
-![List Comprehension](/pantallazo/list_comprehension.png)
+![List Comprehension](/pantallazos/list_comprehension.png)
 
