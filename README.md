@@ -88,7 +88,7 @@ siempre en la iteración de los elementos para crear el diccionario, tenemos en 
 
 Agregar condición a la iteración para la creación del diccionarios.
 
-## Lists vs tuples vs set
+### Lists vs tuples vs set
 
 List: puedes ser ordenadas, modificables, duplicar elementos e ingresar a un elemento especifico.
 
@@ -97,4 +97,15 @@ tuple: tiene las mismas caracteristicas que la lista, con excepción de que no p
 Conjunto: este se puede modificar, pero no permite organizar, duplicar elementos o ingresar a uno especifico.
 
 ![List Comprehension condicional](/pantallazos/clase-7.png)
+
+## Clase número 8
+
+### Funciones de python
+
+Para definir una función en python usamos la plabara `def`, el uso de funciones nos permite reutilizar código para no tener que escribirlo nuevamente.
+
+Las funciones puedes recibir parametros(argumentos) para ser usados dentro de la función.
+
+Las funciones puedes retornar valores resultados de las operaciones que realizamos, esto lo logramos con la palabra `return`.
+
 
