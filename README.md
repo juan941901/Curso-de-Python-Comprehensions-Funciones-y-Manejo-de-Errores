@@ -86,4 +86,15 @@ siempre en la iteración de los elementos para crear el diccionario, tenemos en 
 
 ## Clase Número 7
 
-Agregar condición a la iteración para la creación del diccionario, 
+Agregar condición a la iteración para la creación del diccionarios.
+
+## Lists vs tuples vs set
+
+List: puedes ser ordenadas, modificables, duplicar elementos e ingresar a un elemento especifico.
+
+tuple: tiene las mismas caracteristicas que la lista, con excepción de que no permite modificar sus valores
+
+Conjunto: este se puede modificar, pero no permite organizar, duplicar elementos o ingresar a uno especifico.
+
+![List Comprehension condicional](/pantallazos/clase-7.png)
+
