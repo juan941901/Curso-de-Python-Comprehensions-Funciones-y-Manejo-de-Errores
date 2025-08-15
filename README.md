@@ -82,3 +82,8 @@ Para unir la información de dos listas distintas vamos a usar `zip`, este une l
 siempre en la iteración de los elementos para crear el diccionario, tenemos en cuenta que las variables que usamos para manipulas la información resultante la vamos a usar como clave:valor
 
 `{name: age for (name, age) in zip(names, ages)}`
+
+
+## Clase Número 7
+
+Agregar condición a la iteración para la creación del diccionario, 
