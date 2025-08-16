@@ -1,27 +1,29 @@
-# Curso de Python 🐍 Comprehensions Funciones y Manejo de Errores
+# Curso de Python 🐍 
+## Comprehensions Funciones y Manejo de Errores
 
-## Clase número 1
+---
 
-### Filosofia zen
+## Clase 1 - Filosofia zen
 
 Importamos la libreria `this`, esta al ejecutar el archivo nos regresa un texto sobre la libreria zen de python
 
-## Clase número 2
+---
 
-### Conjuntos
+## Clase 2 - Conjuntos
 
-Propiedades de los conjuntos:
+**Propiedades de los conjuntos:**
 - Se pueden modificar
 - No tienen un orden
 - no permiten datos duplicados
 
-## Clase número 3
+---
 
-### Manipulación de Conjuntos
+## Clase 3 - Manipulación de Conjuntos
 
 Manejo de Crud (Crear, Leer, Actualizar y Eliminar) con conjuntos:
 
 #### leer
+
 podemos usar `in` para validar si un valor se encuentra dentro de un cojunto.
 
 Consultar el largo de elementos dentro del conjunto usando `len`
@@ -37,25 +39,19 @@ Tambien podemos usar `discard`, esto elimina tambien el elmento pero en caso de 
 
 Para vaciar por complento el conjuto usamos `clear`, esto elimina todos los datos del conjunto.
 
-## Clase Número 4
+---
 
-### Operaciones dentro de los conjuntos
+## Clase 4 - Operaciones dentro de los conjuntos
 
 En esta clase vamos a usar más de un conjunto para realizar procesos.
 
-#### Union de conjuntos
-Para unir dos conjuntos usamos `union`, o podemos usar `|` para unirlos datos.
+- **Union de conjuntos:** Para unir dos conjuntos usamos `union`, o podemos usar `|` para unirlos datos.
 
-#### Elementos iguales
-Para sacar los elementos que existen en ambos conjuntos usamos `intersection`, o podemos usar `&` para encontrar los elementos en comun entre los conjuntos
+- **Elementos iguales:** Para sacar los elementos que existen en ambos conjuntos usamos `intersection`, o podemos usar `&` para encontrar los elementos en comun entre los conjuntos
 
-#### Diferencia entre elementos
+- **Diferencia entre elementos:** Para sacar los elementos unicos de cada conjunto vamos a usar `difference`, o tambien podemos usar `-`
 
-Para sacar los elementos unicos de cada conjunto vamos a usar `difference`, o tambien podemos usar `-`
-
-#### Valores en comun entre conjuntos 
-
-Para sacar los elementos que coinciden entre conjuntos y eliminar los elementos en comun usamos `symmetric_difference` o tambien podemos usar `^`
+- **Valores en comun entre conjuntos :** Para sacar los elementos que coinciden entre conjuntos y eliminar los elementos en comun usamos `symmetric_difference` o tambien podemos usar `^`
 
 ## Clase Número 5
 
@@ -104,8 +100,13 @@ Conjunto: este se puede modificar, pero no permite organizar, duplicar elementos
 
 Para definir una función en python usamos la plabara `def`, el uso de funciones nos permite reutilizar código para no tener que escribirlo nuevamente.
 
-Las funciones puedes recibir parametros(argumentos) para ser usados dentro de la función.
+Las funciones puedes recibir parametros(argumentos) para ser usados dentro de la función, esto valores puede establecer un valor por defecto usando `valor=1`, esto es util cuando tenemos algun que por general es constante.
+
+Al tener valores por defecto, sabiendo el nombre de la variable que esta recibiendo la función puedo colocar este mismo para establecer unicamente ese valor, con esto puedo usar el resto de valores por defecto y solo enviar el valor que necesito
 
 Las funciones puedes retornar valores resultados de las operaciones que realizamos, esto lo logramos con la palabra `return`.
 
+Las funciones tambien puede retornar más de un valor haciendo uso de la `,` entre cada variable a retornar.
+
+Para capturar estos valores usaremos igual `,` entre las variables que reciben el resultado, y almacenaran el resultado en el mismo orden que se declara, otra manera de recibir el resultado es dejando unicamente una variable y esta se convetira en una tupla con los resultados retornados, en la cual ya podremos hacer la manipulación.
 
