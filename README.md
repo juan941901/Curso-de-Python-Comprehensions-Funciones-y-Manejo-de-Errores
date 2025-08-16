@@ -126,8 +126,15 @@ El **Scope** es el alcance que tiene una variable dentro del proyecto, puede ser
 
 Con lo cual podemos tener dos variables con el mismo nombre pero distinto valor debido a su scope.
 
+El scope puede cambiar si una variable se encuentra en parte principal de código o dentro de una función
+
 ![List Comprehension condicional](/pantallazos/clase-9.png)
 
 ---
 
-## Clase 10
+## Clase 10 - Refactor game
+
+Creamos el juego de piedra, papel y tijera, en este llevamos la logica a funciones para que cada segmento se encargara de su resposabilidad, haciendo más facil mantener y escalar el código.
+
+---
+
