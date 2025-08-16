@@ -168,3 +168,6 @@ En el ejemplo anterior vemos como con HOF convertimos una función en otro, esto
 
 ---
 
+## Clase 13 - map
+
+ 
