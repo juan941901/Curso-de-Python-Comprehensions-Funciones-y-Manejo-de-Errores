@@ -138,3 +138,18 @@ Creamos el juego de piedra, papel y tijera, en este llevamos la logica a funcion
 
 ---
 
+## Clase 11 - lambdas
+
+las lambdas function nos permiten crear funciones pequeñas, estan se puede usar sin declarar o asignando nombre como si fuera una variable, estas se pueden usar como si fueran un parametro de una función con la finalidad de obtener resultado de operaciones pequeñas.
+
+```python
+def aplicar_operacion(x, operacion):
+    return operacion(x)
+
+print(aplicar_operacion(5, lambda n: n ** 3))  # 125
+```
+
+en este ejemplo se puede ver que se usand dos funciones una de manera tradicional usando `def` la cual recibe dos parametros un entero y el otro la función lambda, siendo así que de esta manera la `n` de lambda recibe el 5 para luego elevarlo a la 3 que es pa operación que estamos realizando con la función lambda.
+
+---
+
