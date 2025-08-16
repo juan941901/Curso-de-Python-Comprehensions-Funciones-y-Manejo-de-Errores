@@ -142,6 +142,8 @@ Creamos el juego de piedra, papel y tijera, en este llevamos la logica a funcion
 
 las lambdas function nos permiten crear funciones pequeñas, estan se puede usar sin declarar o asignando nombre como si fuera una variable, estas se pueden usar como si fueran un parametro de una función con la finalidad de obtener resultado de operaciones pequeñas.
 
+### HOF(Higher-Order Function)
+
 ```python
 def aplicar_operacion(x, operacion):
     return operacion(x)
@@ -150,6 +152,19 @@ print(aplicar_operacion(5, lambda n: n ** 3))  # 125
 ```
 
 en este ejemplo se puede ver que se usand dos funciones una de manera tradicional usando `def` la cual recibe dos parametros un entero y el otro la función lambda, siendo así que de esta manera la `n` de lambda recibe el 5 para luego elevarlo a la 3 que es pa operación que estamos realizando con la función lambda.
+
+```python
+def multiplicador(n):
+    def multiplicar(x):
+        return x * n
+    return multiplicar
+
+por_2 = multiplicador(2)
+print(por_2(5))  # 10
+
+```
+
+En el ejemplo anterior vemos como con HOF convertimos una función en otro, esto se logra debido a que la función multiplicador retorna multiplicar, por lo cual cuando declaramos por_2, este almacena la función multiplicador con el valor de 2 como parametro de entrada y retornandonos la función multiplicar, la cual es la que al hacer el `print` esta diciendo que llama es a multiplicar enviando 5 como parametro de entrada y permitiendo así que se realice la operación
 
 ---
 
