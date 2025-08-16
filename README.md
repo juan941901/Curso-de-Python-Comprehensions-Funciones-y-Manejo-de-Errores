@@ -53,23 +53,22 @@ En esta clase vamos a usar más de un conjunto para realizar procesos.
 
 - **Valores en comun entre conjuntos :** Para sacar los elementos que coinciden entre conjuntos y eliminar los elementos en comun usamos `symmetric_difference` o tambien podemos usar `^`
 
-## Clase Número 5
+---
 
-### List Comprehension
+## Clase 5 - List Comprehension
 
-Esto nos permite a generar listas , con pocas instrucciones
+El **List Comprehension** nos permite generar listas con pocas líneas de código.
 
 ![List Comprehension](/pantallazos/list_comprehension.png)
 
-Podemos usar listas, tuplas o cojuntos para recorrer con list comprehension.
-
-Podemos usar condicionales para validar el elemento que vamos a agregar a nuestra lista.
+- Podemos usar listas, tuplas o cojuntos para recorrer con list comprehension.
+- Podemos usar condicionales para validar el elemento que vamos a agregar a nuestra lista.
 
 ![List Comprehension condicional](/pantallazos/list_comprehension_condicional.png)
 
-## Clase Número 6
+---
 
-### Dictionary Comprehension
+## Clase 6 - Dictionary Comprehension
 
 Vamos a crear información para un diccionario de manera dinamica
 
@@ -79,24 +78,25 @@ siempre en la iteración de los elementos para crear el diccionario, tenemos en 
 
 `{name: age for (name, age) in zip(names, ages)}`
 
+---
 
-## Clase Número 7
+## Clase 7 - Diccionarios con condiciones 
 
 Agregar condición a la iteración para la creación del diccionarios.
 
 ### Lists vs tuples vs set
 
-List: puedes ser ordenadas, modificables, duplicar elementos e ingresar a un elemento especifico.
+- List: puedes ser ordenadas, modificables, duplicar elementos e ingresar a un elemento especifico.
 
-tuple: tiene las mismas caracteristicas que la lista, con excepción de que no permite modificar sus valores
+- tuple: tiene las mismas caracteristicas que la lista, con excepción de que no permite modificar sus valores
 
-Conjunto: este se puede modificar, pero no permite organizar, duplicar elementos o ingresar a uno especifico.
+- Conjunto: este se puede modificar, pero no permite organizar, duplicar elementos o ingresar a uno especifico.
 
 ![List Comprehension condicional](/pantallazos/clase-7.png)
 
-## Clase número 8
+---
 
-### Funciones de python
+## Clase 8 - Funciones de python
 
 Para definir una función en python usamos la plabara `def`, el uso de funciones nos permite reutilizar código para no tener que escribirlo nuevamente.
 
@@ -110,3 +110,10 @@ Las funciones tambien puede retornar más de un valor haciendo uso de la `,` ent
 
 Para capturar estos valores usaremos igual `,` entre las variables que reciben el resultado, y almacenaran el resultado en el mismo orden que se declara, otra manera de recibir el resultado es dejando unicamente una variable y esta se convetira en una tupla con los resultados retornados, en la cual ya podremos hacer la manipulación.
 
+```Python
+def operaciones(a, b):
+    return a+b, a-b, a*b
+
+suma, resta, multi = operaciones(5, 2)
+
+```
