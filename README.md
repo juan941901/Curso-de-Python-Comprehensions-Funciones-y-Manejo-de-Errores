@@ -117,3 +117,17 @@ def operaciones(a, b):
 suma, resta, multi = operaciones(5, 2)
 
 ```
+
+---
+
+## Clase 9 - Scope
+
+El **Scope** es el alcance que tiene una variable dentro del proyecto, puede ser local o global y esto lo que permite controla en que parte del código podemos acceder a su contenido.
+
+Con lo cual podemos tener dos variables con el mismo nombre pero distinto valor debido a su scope.
+
+![List Comprehension condicional](/pantallazos/clase-9.png)
+
+---
+
+## Clase 10
